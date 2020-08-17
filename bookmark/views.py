@@ -26,5 +26,6 @@ class BookmarkCreateView(CreateView):
 
 class BookmarkListView(ListView):
     model = Bookmark
+    paginate_by = 3
 
 # Create your views here.
